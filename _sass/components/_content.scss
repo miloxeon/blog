@@ -3,12 +3,20 @@
 \*------------------------------------*/
 
 .c-content {
-  a:not(.c-btn) {
-    text-decoration: underline;
-    text-decoration-skip: ink;
+	ul {
+		list-style-position: outside;
+	}
 
-    @include attention() {
-      color: $color-brand;
-    }
-  }
+	ul li + li {
+		margin-top: 0.5rem;
+	}
+
+	a:not(.c-btn) {
+		text-decoration: underline;
+		text-decoration-skip: ink;
+
+		@include attention() {
+			color: $color-brand;
+		}
+	}
 }
