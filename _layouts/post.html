@@ -24,7 +24,11 @@ layout: default
 				>
 
 				<div class="c-content" itemprop="articleBody">
-					{% include page-image.html %} {{ content }}
+					{% include page-image.html %}
+					<blockquote>
+						<p>{{ page.tldr }}</p>
+					</blockquote>
+					{{ content }}
 				</div>
 
 				<div class="c-tags">
