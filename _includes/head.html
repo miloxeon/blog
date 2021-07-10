@@ -20,7 +20,10 @@
 		title="{{ site.title }}"
 		href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}"
 	/>
-
+	<link
+		rel="stylesheet"
+		href="https://unpkg.com/ilyabirman-likely@2/release/likely.min.css"
+	/>
 	<style>
 		{% capture inlineCSS %}
 		  {% include app.scss %}
