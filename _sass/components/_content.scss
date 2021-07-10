@@ -7,7 +7,8 @@
 		list-style-position: outside;
 	}
 
-	ul li + li {
+	ul li + li,
+	ol li + li {
 		margin-top: 0.5rem;
 	}
 
