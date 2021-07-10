@@ -2,14 +2,23 @@
 layout: default
 ---
 
-<div class='o-wrapper'>
-  <div class='o-grid'>
-    {% for post in paginator.posts %}
-      {% include post-card.liquid %}
-    {% endfor %}
-  </div>
+<div class="o-wrapper">
+	<div class="o-grid">
+		{% for post in paginator.posts %} {% include post-card.liquid %} {% endfor
+		%}
+	</div>
 
-  <div class='o-grid'>
-    {% include pagination.html %}
-  </div>
+	<div class="o-grid">{% include pagination.html %}</div>
+	<div class="o-grid" style="margin-top: 2rem">
+		<div class="o-grid__col" style="width: 100%">
+			<iframe
+				src="https://miloslav.substack.com/embed"
+				width="100%"
+				height="320"
+				style="border: 1px solid #eee; background: white"
+				frameborder="0"
+				scrolling="no"
+			></iframe>
+		</div>
+	</div>
 </div>
