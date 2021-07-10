@@ -1,0 +1,19 @@
+{% if paginator.previous_page %}
+<div class="o-grid__col o-grid__col--2-4-s">
+	<a
+		class="c-pagination"
+		href="{{ paginator.previous_page_path | prepend: site.baseurl }}"
+	>
+		<span class="c-pagination__text c-pagination__text--prev">Newer</span>
+	</a>
+</div>
+{% endif %} {% if paginator.next_page %}
+<div class="o-grid__col o-grid__col--end o-grid__col--2-4-s u-text-right">
+	<a
+		class="c-pagination"
+		href="{{ paginator.next_page_path | prepend: site.baseurl }}"
+	>
+		<span class="c-pagination__text c-pagination__text--next">Older</span>
+	</a>
+</div>
+{% endif %}

@@ -1,0 +1,25 @@
+/*------------------------------------*\
+  Components > Social Navigation
+\*------------------------------------*/
+
+.c-social-nav {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	justify-content: center;
+	gap: 0 2rem;
+
+	&__item {
+		display: inline-block;
+	}
+
+	&__icon {
+		fill: $color-text;
+		vertical-align: middle;
+		transition: $global-transition;
+		transition-property: fill;
+
+		@include attention() {
+			fill: $color-brand;
+		}
+	}
+}

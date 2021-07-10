@@ -1,0 +1,20 @@
+/*------------------------------------*\
+  Components > Pagination
+\*------------------------------------*/
+
+.c-pagination {
+	text-transform: uppercase;
+	transition: $global-transition;
+	transition-property: color;
+
+	@include attention() {
+		color: $color-brand;
+		text-decoration: none;
+	}
+
+	&__text {
+		position: relative;
+		font-size: $font-size-small;
+		letter-spacing: 2px;
+	}
+}
