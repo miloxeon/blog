@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PWA and website responsiveness are not the same
-tags: [dev, frontend]
+tags: [dev, frontend, pwa]
 image: "/images/covers/pwa-vs-websites.webp"
 tldr: Websites should be device-agnostic while PWA should provide different UX based on whether your users would use touchscreen or mouse.
 ---
