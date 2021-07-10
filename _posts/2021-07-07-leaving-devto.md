@@ -14,7 +14,7 @@ I created an [article on responsiveness]({% post_url 2019-02-01-pwa-vs-websites 
 
 It worked. I started gaining followers, and all that good feedback helped me to get through depression, the worst period of my career.
 
-Then there was that article on architecture that skyrocketed. After the traction it got I really started to see myself as an author and not just a developer. I learned ‌I could **be heard**, that I can at least teach somebody what I achieved, driven by obsession and pain. That feeling gave the purpose of what I do.
+Then there was that article on architecture that skyrocketed. After the traction it got, I really started to see myself as an author and not just a developer. I learned ‌I could **be heard**, that I can at least teach somebody what I achieved, driven by obsession and pain. That feeling gave the purpose of what I do.
 
 I saw this platform as a place where I have freedom to express my achievements, thoughts and [even failures]({% post_url 2020-07-12-thepresence %}).
 
@@ -40,7 +40,7 @@ With that gesture, Dev.to basically said to me that if I wanted to even mention 
 
 Out of mere habitual inertia of seeing dev.to as a part of my digital home, I made a habit of spending at least 20 minutes a day on dev.to, writing comments and replying to other people. What I saw surprised me — dev.to is not a place where people teach other people and vice versa. It's merely a self-promotion platform with "post and go" mechanics.
 
-There are just about a dozen decent authors who are really trying to deliver value. Other tens of thousand people are here just to be here. Some are crossposting trivial lessons just to gain followers, some are promoting their other ventures like coding vlogs. No one is here to stay, teach, and discuss peacefully.
+There are just about a dozen decent authors who are really trying to deliver value. Other tens of thousands of people are here just to be here. Some are crossposting trivial lessons just to gain followers, some are promoting their other ventures like coding vlogs. No one is here to stay, teach, and discuss peacefully.
 
 # Summary
 
@@ -56,7 +56,7 @@ As a dev.to moderator, I'm now deleting my previous similar articles, despite th
 -  [How to get rid of Apple censorship, or an open letter to Spotify](https://dev.to/mvoloskov/how-to-get-rid-of-apple-censorship-or-an-open-letter-to-spotify-51h3), for mentioning Apple and Spotify;
 -  [It’s okay to invent unusual things (lessons learned from the history of science)](https://dev.to/mvoloskov/its-okay-to-invent-unusual-things-lessons-learned-from-history-of-science-3lme), for mentioning Quake which is a commercial game;
 -  [Scalable architecture without magic (and how to build it if you’re not Google)](https://dev.to/mvoloskov/scalable-architecture-without-magic-and-how-to-build-it-if-youre-not-google-336a), for mentioning Google which has paid products;
--  [My First Startup](https://dev.to/mvoloskov/my-first-startup-4i8o), for mentioning Instagram which has paid services;
+-  [My First Startup](https://dev.to/mvoloskov/my-first-startup-4i8o), for mentioning Instagram, which has paid services;
 -  [PWA Checklist 2019](https://dev.to/mvoloskov/pwa-checklist-2019-25j4), for mentioning The Noun Project which has paid plans;
 -  [PWA and website responsiveness are not the same](https://dev.to/mvoloskov/pwa-and-website-responsiveness-are-not-the-same-44pc), for mentioning Samsung Galaxy Note, a commercial product.
 
@@ -70,7 +70,7 @@ No. I will be posting all my articles to my self-hosted blog.
 
 **Dear readers,**
 
-To me, even 10 of you matter more than all spambots and dead traffic in the world. In all that situation I learned than the attention of one loyal reader can do more than a thousand of fake likes, because loyal readers value you because of _who you are_, not because of the platform you're on. To them, you're a _personality_ and not just another FOMO-inducing, faceless "rockstar" in the feed.
+To me, even 10 of you matter more than all spambots and dead traffic in the world. In all that situation, I learned that the attention of one loyal reader can do more than a thousand of fake likes, because loyal readers value you because of _who you are_, not because of the platform you're on. To them, you're a _personality_ and not just another FOMO-inducing, faceless "rockstar" in the feed.
 
 Feel free to subscribe to the updates on [Twitter](https://twitter.com/mvoloskov) and on [Buy me a Coffee](https://www.buymeacoffee.com/mvoloskov) (you don't have to pay anything). Freshly posted new articles will be announced there. I'll continue posting on my own blog exclusively. Rather than just the dev stuff, I'll be focusing on abstract concepts behind the code and the design I do daily, mental health, neurobiology and other stuff I find interesting, like ethics and human-computer interaction.
 
