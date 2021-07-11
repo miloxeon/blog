@@ -46,4 +46,4 @@ defaults:
    - scope:
         path: "_pages"
      values:
-        permalink: /:basename:output_ext
+        permalink: /blog/:basename:output_ext
