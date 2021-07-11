@@ -10,13 +10,13 @@ tldr: Because I feel like what I say doesn't matter.
 
 Dev.to was the place where I started writing. Before it, I never published what I wrote to any kind of blogging platform.
 
-I created an [article on responsiveness]({% post_url 2019-02-01-pwa-vs-websites %}) just to show it to my team back then, and as a random afterthought, I chose to give it some spotlight, at least a chance to be seen. You know, I had nothing to lose, anyway.
+I created an [article on responsiveness](/blog/2019/02/01/pwa-vs-websites) just to show it to my team back then, and as a random afterthought, I chose to give it some spotlight, at least a chance to be seen. You know, I had nothing to lose, anyway.
 
 It worked. I started gaining followers, and all that good feedback helped me to get through depression, the worst period of my career.
 
 Then there was that article on architecture that skyrocketed. After the traction it got, I really started to see myself as an author and not just a developer. I learned ‌I could **be heard**, that I can at least teach somebody what I achieved, driven by obsession and pain. That feeling gave the purpose of what I do.
 
-I saw this platform as a place where I have freedom to express my achievements, thoughts and [even failures]({% post_url 2020-07-12-thepresence %}).
+I saw this platform as a place where I have freedom to express my achievements, thoughts and [even failures](/blog/2020/07/12/thepresence).
 
 It turned out to be a mistake.
 

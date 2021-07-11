@@ -8,7 +8,7 @@ tldr: Because of "post and run" culture.
 
 I'm busy launching [my own blog](https://miloslav.website/blog/), so I'll make this quick.
 
-Not long ago, I wrote about [how I left dev.to]({% post_url 2021-07-07-leaving-devto %}) because they shadowbanned my essay. Long story short, Hashnode **also shadowbanned** this very essay — [here it is]({% post_url 2021-06-17-pixelhunter %}).
+Not long ago, I wrote about [how I left dev.to](/blog/2021/07/07/leaving-devto) because they shadowbanned my essay. Long story short, Hashnode **also shadowbanned** this very essay — [here it is](/blog/2021/06/17/pixelhunter).
 
 So, everything I said about dev.to is true for Hashnode as well.
 

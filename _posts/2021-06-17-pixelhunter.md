@@ -34,7 +34,7 @@ Cameras, kitchen and home appliances, cars — basically everything that was eve
 
 Unix tools was heavily inspired by the former. Iconic Apple products was surely designed with the latter in mind.
 
-Going to the Apple Store for the first time as a kid who learned Pascal was a career-defining experience for me. I still find ad-hocs beautiful, in fact here's [a whole article about them]({% post_url 2020-07-22-beauty %}), but being mesmerized by how Apple products looked and worked back in 2009, I still use the memories as a reference. 12 years later, I still stand by this very idea — the magic button with the least background required to operate. In fact, both [image-butter](https://github.com/mvoloskov/image-butter) and [fast-image-zoom](https://github.com/mvoloskov/fast-image-zoom) made with that very principle in mind.
+Going to the Apple Store for the first time as a kid who learned Pascal was a career-defining experience for me. I still find ad-hocs beautiful, in fact here's [a whole article about them](/blog/2020/07/22/beauty), but being mesmerized by how Apple products looked and worked back in 2009, I still use the memories as a reference. 12 years later, I still stand by this very idea — the magic button with the least background required to operate. In fact, both [image-butter](https://github.com/mvoloskov/image-butter) and [fast-image-zoom](https://github.com/mvoloskov/fast-image-zoom) made with that very principle in mind.
 
 So, what functionality do we need? You just upload an image, the API crops it, and you display the results. That's basically it. I could do it in about three hours, just like with The Code of Conduct Generator.
 
