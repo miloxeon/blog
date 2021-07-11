@@ -8,6 +8,7 @@
 	<title>
 		{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
 	</title>
+
 	<meta
 		name="description"
 		content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"
@@ -22,6 +23,11 @@
 		title="{{ site.title }}"
 		href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}"
 	/>
+	<script
+		data-goatcounter="https://mvoloskov.goatcounter.com/count"
+		async
+		src="//gc.zgo.at/count.js"
+	></script>
 	<link
 		rel="stylesheet"
 		href="https://unpkg.com/ilyabirman-likely@2/release/likely.min.css"
