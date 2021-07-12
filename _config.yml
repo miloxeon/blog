@@ -20,6 +20,9 @@ markdown: kramdown
 permalink: pretty
 paginate: 10
 
+kramdown:
+   smart_quotes: ["rdquo", "rsquo", "ldquo", "rdquo"]
+
 sass:
    style: compressed
 
