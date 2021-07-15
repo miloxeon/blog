@@ -14,4 +14,11 @@
 			text-decoration: none;
 		}
 	}
+
+	&__h1 {
+		font-size: inherit;
+		font-weight: inherit;
+		line-height: inherit;
+		margin: 0;
+	}
 }
