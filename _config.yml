@@ -8,7 +8,7 @@
 # Site settings
 title: Essays by Miloslav Voloskov
 email: "hello@miloslav.website"
-description: ""
+description: "The official blog, RSS and newsletter of https://miloslav.website. I cover frontend, accessibility, UX, beauty and random stuff in between."
 baseurl: "/blog" # The subpath of your site, e.g. /blog
 url: "https://miloslav.website/" # The base hostname & protocol for your site
 twitter: "mvoloskov"
