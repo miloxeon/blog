@@ -14,7 +14,7 @@ Look! Firefox serves their logo from an address beginning with “chrome”! Are
 
 ![Firefox serves their logo from an address beginning with “chrome”](/blog/images/content/hpcvvjf9iizfyh21vifa.jpg)
 
-# What?
+## What?
 
 Firefox using `chrome://` somewhere in their browser may be suspicious, but there is something straight up alarming ahead.
 
@@ -24,7 +24,7 @@ The problem is every website you visit is checked up with Google’s service by 
 
 Even if Google can’t acquire your IP while performing the check-up (which I doubt), with the sheer amount of data they have [it’s trivial to tie your requests to your identity](https://arstechnica.com/tech-policy/2009/09/your-secrets-live-online-in-databases-of-ruin/).
 
-# The solution
+## The solution
 
 1. Type `about:config` in your address bar. You’ll end up on advanced settings page.
 2. Type `browser.safebrowsing` in the search bar on top.
@@ -87,7 +87,7 @@ This is how I set things up:
 | services.sync.prefs.sync.browser.safebrowsing.phishing.enabled                             | false                |
 | browser.safebrowsing                                                                       | false                |
 
-# Additional steps
+## Additional steps
 
 This is what you can also consider disabling. Those are DRM options, geolocation and telemetry reports:
 
@@ -100,7 +100,7 @@ This is what you can also consider disabling. Those are DRM options, geolocation
 -  `browser.pocket.enabled`
 -  `geo.enabled`
 
-# Today I learned
+## Today I learned
 
 -  [Chromium is not private at all](https://www.reddit.com/r/privacy/comments/34tc2f/how_safe_is_chromium_privacy_wise/cqxzhh8?utm_source=share&utm_medium=web2x&context=3)
 -  Firefox sends data to a Google service by default

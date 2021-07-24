@@ -8,11 +8,11 @@ tldr: You can’t fight depression on your own because it’s a physiological th
 
 > _Important note of **Jul 10, 2021**: this article was originally published when I actually was affected by depression. Note the sheer quantity of grammatical errors — that's how less efficient your mind is when you depressed. The errors are intentionally left unfixed, and the article itself is republished for historical reasons._
 
-# Yes I feel bad but I’m creative that way. What if I seek help and that pills therapist gave me just change my personality so I’m happy but it’s not _me_ anymore? What if I lose my vision?
+## Yes I feel bad but I’m creative that way. What if I seek help and that pills therapist gave me just change my personality so I’m happy but it’s not _me_ anymore? What if I lose my vision?
 
 You won’t. All pills do is just help you gain control of your thoughts so bad thoughts don’t think themselves on their own. No more uncontrollable self-blaming and other things like that.
 
-# Symptoms and fight
+## Symptoms and fight
 
 This all started at university when I realized that I’m scared of everyone because everyone tries to blame me. There weren’t any reasons, they just blame me because I’m _bad_. Then I started to blame myself. Again, there weren’t any reasons – a voice in my head just shamed me and made me feel bad even though I haven’t committed anything to be shamed for.
 
@@ -36,7 +36,7 @@ Yes, you can fight the depression on your own but you only can win you some time
 
 > It was a logic vs feelings fight. What I realized is that logic can’t win it.
 
-# Help and aftermath
+## Help and aftermath
 
 So after some medical treatment, this is what’s changed:
 
@@ -46,7 +46,7 @@ So after some medical treatment, this is what’s changed:
 -  I don’t afraid of people anymore. I just don’t.
 -  I’m not aggressive. There’s no need.
 
-# Conclusion
+## Conclusion
 
 My personality hasn’t been altered. It’s still me, but now I can focus and I can just snap my fingers and those unwanted things in my head disappear.
 

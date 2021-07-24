@@ -6,7 +6,7 @@ tags: [history]
 tldr: Dear Spotify or whoever wants to get rid of the platform’s aggressive censorship, go build yourself a PWA.
 ---
 
-# The drama
+## The drama
 
 ![](/blog/images/content/tM0WGMb.jpg)
 
@@ -16,7 +16,7 @@ It seems like complying to Apple’s subscription apps policy costs Spotify up t
 
 This policy seems to apply to all the subscription-based music apps around there, obviously except for Apple Music. With that being said, it’s clear that Apple Music will always cost less or will make more money because they don’t need to pay a regular fee to themselves.
 
-# The problem
+## The problem
 
 The problem here is obviously not only money.
 
@@ -32,7 +32,7 @@ So, if you don’t want to give Apple or Google the efficient and fail-proof way
 
 If you decided to tear the strings apart but don’t know how, you’re lucky enough to make your business in just the right time – the time when PWA is hot and can’t be any hotter.
 
-# The solution
+## The solution
 
 Do you know why I decided to invest all my free time in learning how to build PWA back then? The reason is simple:
 

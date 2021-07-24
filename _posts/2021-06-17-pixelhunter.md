@@ -6,7 +6,7 @@ image: "/images/covers/pixelhunter.webp"
 tldr: This is a simple product, but in implementing the UX magic, I had to do some research and solve finicky browser-specific problems.
 ---
 
-# The origins
+## The origins
 
 I first needed social media images upon launching [The Code of Conduct Generator](https://www.producthunt.com/posts/the-code-of-conduct-generator) a while ago. I resized them in Photoshop. One by one.
 
@@ -18,7 +18,7 @@ Fast forward three years and Uploadcare comes to me with the exact same idea. Bu
 
 I just needed to integrate their API, which is really nothing more complicated than installing an NPM library. I instantly agreed.
 
-# The art of creating problems
+## The art of creating problems
 
 In designing products, there are usually two completely opposite extremes: the explanatory design and encapsulating design.
 
@@ -44,9 +44,9 @@ Pixelhunter was going to be The Big Party of a product. The product that is esse
 
 Keeping in mind that Uploadcare essentially crops pictures pressing their own AI magic button, I rolled with encapsulating design, designing the magic button of my own. Unsurprisingly, instead of just three hours, it took forty.
 
-# The result
+## The result
 
-## Configuration
+### Configuration
 
 I wanted the whole thing to be maintainable without a need for a programmer. So I created the simplest DSL possible (really just a config file syntax) that would allow to extend the product without writing code, with the only limitation being that you need to stay inside the domain area.
 
@@ -72,7 +72,7 @@ Everything in this product obeys the config. The grid, the sizes, the logos, the
 
 Just using the browser, one can edit this file right on GitHub, adding logo images there if necessary and clicking "commit". Everything else is done automatically.
 
-## Colors
+### Colors
 
 The background is `#f2f1ed` — white, but not too white. Why? Social media images often have solid color backgrounds, and often it's a white one. Dynamically adjusting the product background to act in contrast with the color of the image would be overengineering. Why not just roll with a white-ish background, so both dark and bright images look good on it? The additional warmness of not just the gray really adds to it.
 
@@ -86,7 +86,7 @@ I keep doing this because of the _Jira paradox_. See, when every task is marked 
 
 Our brain seem to perceive "dark gray on bright gray" as "black on white" to simplify things, but still see the respective true colors when you add just a touch of them to draw extra attention.
 
-## Tabs
+### Tabs
 
 Just transitioning between active and non-active states was easy enough to do by just changing background-color from whatever the active color is to `transparent`. Sure, this is the technique everybody uses.
 
@@ -106,7 +106,7 @@ A tailing mode debounce executes the first call instantly and then goes into deb
 
 ![](/blog/images/content/t9j6aq2ekc38kbqi59be.gif)
 
-## Screenreader
+### Screenreader
 
 I often hear about accessibility "preventing" UX and frontend developers to do their job properly. As a matter of fact, yes, WCAG colors and placing labels above form fields may confuse less skilled and the most stubborn designers.
 
@@ -116,7 +116,7 @@ When done properly, ARIA makes a solid screenreader experience. Look, VoiceOver 
 
 ![](/blog/images/content/4kr3vqr2sxewftzknfvo.gif)
 
-## Grid
+### Grid
 
 This product is all about pictures. There are really huge ones. There are long ones and wide ones. So I came up with the idea of occupying the whole width available and decided to choose the widest container I use — the `80rem` one.
 
@@ -142,7 +142,7 @@ As a matter of fact, I use the only one media query in only one place, just to r
 
 You surely can make 100% responsive beautiful UI without any width media queries at all. It's also faster and more responsive without them. Here's an [amazing video by Heydon Pickering](https://www.youtube.com/watch?v=qOUtkN6M52M) about such techniques.
 
-## Animations and perceived performance
+### Animations and perceived performance
 
 Initially I wanted the interactive 3D hero images like that:
 
@@ -154,7 +154,7 @@ I decided to drop the tilt, and just static animations was working butter smooth
 
 Also, I designed a nice appear animation for the grid back when the hero block wasn't there. But later, as the hero block grew taller than a common screen height, I decided to turn the appear animation off because you really have to scroll your mouse wheel violently when the page loads in order to see it, and it's also happen in the most intensive part of a webpage display lifecycle — upon first load, when everything you have is trying to load simultaneously.
 
-## Fallbacks
+### Fallbacks
 
 Blah blah blah, things break, blah blah. In case of Pixelhunter, things started to break in development. You see, I use the ad blocker. And Pixelhunter supports common ad sizes. So my ad blocker was just, you know, blocking some images even in app served from my devserver.
 
@@ -197,7 +197,7 @@ When a pic won't load, we try to load it's 10 by 10 pixels version, stretch it w
 
 I really want to mention other tricks like asymmetrical transitions that have different timings in and out, but then this article would be a book.
 
-# The dread
+## The dread
 
 Making magic happen is hard. UX magic is particularly fragile, frustrating and finicky under the hood.
 
@@ -217,7 +217,7 @@ After all that I found out that `patch-package` somehow works in my environment 
 
 Now everything was working smoothly. I definitely would recommend you to try to integrate two complex, event-driven libs that both rely on 3D transitions together.
 
-# Summary
+## Summary
 
 Pixelhunter is sure much more complex than it needs to be. But through struggle, fighting rapidly arising UX problems one by one, you can create a product that is nothing short of magical.
 
@@ -225,11 +225,11 @@ Of course, Bootstrap works, and it's much more stable.
 
 I just don't want to use it.
 
-# Privacy
+## Privacy
 
 All the pictures you upload are deleted after 24 hours. The source code is available on [GitHub](https://github.com/mvoloskov/pixelhunter).
 
-# Credits
+## Credits
 
 > This project was sponsored by [Uploadcare](https://uploadcare.com) and it utilizes their Intelligence API. However, Uploadcare retained no control over this article, the product design, UX, code and other major decisions. They just came to me with the idea.
 

@@ -6,7 +6,7 @@ image: "/images/covers/leaving-devto.webp"
 tldr: Because I feel like what I say doesn't matter.
 ---
 
-# The beginning
+## The beginning
 
 Dev.to was the place where I started writing. Before it, I never published what I wrote to any kind of blogging platform.
 
@@ -20,7 +20,7 @@ I saw this platform as a place where I have freedom to express my achievements, 
 
 It turned out to be a mistake.
 
-# Pixelhunter shadowban incident
+## Pixelhunter shadowban incident
 
 On Jun 17, 2021, I published an article on the project I made named Pixelhunter. It was never meant to be a paid gig — the idea came to me years ago, before I even knew anybody in the community. Guys just recognized the value in what I do and supported me, the gesture that I'm grateful for, and I made the full disclosure out of sincerity. That's it.
 
@@ -36,13 +36,13 @@ With that gesture, Dev.to basically said to me that if I wanted to even mention 
 
 > Now I feel that what I say and what I teach doesn't matter unless I pay the platform. It would not surprise me if this very article ends up shadowbanned as well.
 
-# Lack of actual community
+## Lack of actual community
 
 Out of mere habitual inertia of seeing dev.to as a part of my digital home, I made a habit of spending at least 20 minutes a day on dev.to, writing comments and replying to other people. What I saw surprised me — dev.to is not a place where people teach other people and vice versa. It's merely a self-promotion platform with "post and go" mechanics.
 
 There are just about a dozen decent authors who are really trying to deliver value. Other tens of thousands of people are here just to be here. Some are crossposting trivial lessons just to gain followers, some are promoting their other ventures like coding vlogs. No one is here to stay, teach, and discuss peacefully.
 
-# Summary
+## Summary
 
 As a dev.to moderator, I'm now deleting my previous similar articles, despite them not being sponsored in any sense, because they violate the rules just like my article on Pixelhunter do. Just like the API I used, the products I mentioned had free and paid plans:
 
@@ -64,7 +64,7 @@ I don't think there are evil people among Dev.to administration. Mistakes happen
 
 But to me, it doesn't matter anymore. I don't care if I broke some rules of your inclusive community. I only care about the value I deliver and the thought process I expose in what I write.
 
-# You quit writing?
+## You quit writing?
 
 No. I will be posting all my articles to my self-hosted blog.
 

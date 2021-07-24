@@ -12,7 +12,7 @@ Sometimes you meet open-minded people whose reaction is great, and they’re alw
 
 But sometimes you don’t.
 
-# Fermat and Semmelweis
+## Fermat and Semmelweis
 
 [Pierre de Fermat](https://en.wikipedia.org/wiki/Pierre_de_Fermat) was a mathematician who lived back in 17th century.
 
@@ -28,7 +28,7 @@ He pretty much tried to teach doctors of that time to wash their hands.
 
 His approach [faced so much stubbornness and straight up hatred](https://en.wikipedia.org/wiki/Contemporary_reaction_to_Ignaz_Semmelweis#Rejected_as_unscientific) that he actually went insane and died in an asylum. Sometimes when I read things like this, I don’t really believe them, but it is so hard to argue with the facts.
 
-# My personal experience
+## My personal experience
 
 Here are _real quotes_ from real people I heard through my career. Those had been said to me and other developers I worked with:
 

@@ -45,7 +45,7 @@ _Just go and use React, that’s how cool guys so it these days!_ Yes, you defin
 
 Or am I wrong?
 
-# Lessons learned
+## Lessons learned
 
 You don’t need any of that fancy stuff to build great, useful products. People don’t give a damn about the tools you’ve used, the functionality is all that matters.
 

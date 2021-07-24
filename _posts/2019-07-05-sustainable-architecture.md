@@ -28,7 +28,7 @@ But driving a car is easy. You just see the obstacle and drive around it, adapti
 
 Building the new prototype should be completely okay. Let’s build the new one every time our current prototype breaks. Let’s make assumptions and build the prototype to test them and to learn when it fails.
 
-# The cycle
+## The cycle
 
 When we’re trying to imagine the whole thing at once in all its complexity, chances are we’re going to miss something. Something small but important enough to render our architecture useless. [Chaos theory](https://simple.wikipedia.org/wiki/Chaos_theory) kicks in.
 
@@ -42,7 +42,7 @@ When our prototype breaks, it’s a great opportunity to learn from it. Let’s 
 
 The whole process called the “**invent-implement-learn**” cycle. Passing the iterations of this cycle as quickly as possible is what we’d chosen to invest in. This is our ultimate weapon to fight entropy and to face the ever-changing world.
 
-# The prototypes
+## The prototypes
 
 Every application and everything that’d ever been coded consists of _data_ and _methods_. For example, the state and the JSX templates are data, while the _render_ function is a method that works with this data. The objects are data, while the function you wrote to transform that objects are a method.
 
@@ -56,17 +56,17 @@ The general set of entities and methods that can withstand the small requirement
 
 The DSL may be very thin and reduced to a set of few helper functions and some basic entities, but it _should_ always be present in some form.
 
-# The prerequisites
+## The prerequisites
 
 1. **The rational mindset.** You should be able to transform the business task to the set of entities and their relations. To train this skill, try building the simple things you know how to approach. For example, try building a to-do list: the only entity you need is a _to-do_, it consists of its text and the “done” boolean. As soon as it grows, there’ll also be a _list_ entity that consists of its name and the array of to-dos… Take it from here.
 2. **The go-to tech stack.** Choose the toolkit you like the most and master it to the level where you don’t even think about the tools themselves. You just think about the task and your fingers type the thoughts that are in your head but in code.
 
-# Things that almost always help
+## Things that almost always help
 
 1. **[Declarative](https://en.wikipedia.org/wiki/Declarative_programming) concepts**, in contrast with [imperative](https://en.wikipedia.org/wiki/Imperative_programming) ones. Of course, imperative systems are often more flexible in details. But declarative ones are closer to domain area, easier to adapt, easier to understand later and way more fault-tolerant. E.g. don't hard-code the logic in your programming language. Express the logic in a declarative config and build the function that accepts that config and does the work. If changes are coming, but you can do them with your existing config schema, there is no need to change the code and test it again. You can just adapt the config, and it will run butter smooth.
 2. **Expressive, sugary languages.** Even though you might not want to use them in production, they can help us here building the prototypes. The boilerplate will be smaller, and the code will be shorter and easier to understand. It’s also quicker to build new prototypes and change the existing ones.
 
-# Wrapping up
+## Wrapping up
 
 The algorithm:
 

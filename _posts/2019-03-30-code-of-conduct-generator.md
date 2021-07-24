@@ -14,7 +14,7 @@ So, being a programmer, I created [The Code of Conduct Generator](https://www.pr
 
 It's really easy: you just type in your community or company name, the reporting email and check some checkboxes. Boom, you're good to go.
 
-# Facts
+## Facts
 
 -  **Time spent on the whole project:** two hours
 -  **Time spent fiddling around with that button gradient and box-shadow:** almost one hour

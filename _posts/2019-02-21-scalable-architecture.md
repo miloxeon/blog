@@ -18,9 +18,9 @@ Of course, you can just go and pick from AWS tiers. But if you want to know how 
 
 Let’s dive in.
 
-# Basics
+## Basics
 
-## Choosing the right tools
+### Choosing the right tools
 
 Different programming languages are for different tasks.
 
@@ -38,7 +38,7 @@ For read-first tasks like displaying news, it’s better to stick with something
 
 If you need both, just install two databases! This isn’t forbidden. Nothing will break. This is how things should be done.
 
-## Multiple servers
+### Multiple servers
 
 When one computer isn’t enough, you just double them. When two isn’t enough, you go for three and so on.
 
@@ -54,7 +54,7 @@ Load balancer is the thing that will reroute your request to the least busy serv
 
 Sessions? Store them at Redis and allow all of your servers to access it.
 
-## Caching and rate limiting
+### Caching and rate limiting
 
 Imagine calculating the same thing every 100 milliseconds for each and every user. This will make your server vulnerable for _Slashdot effect_ – it will basically be DDoS-ed just by users accessing data.
 
@@ -68,7 +68,7 @@ Think about your users and their needs and configure cache accordingly. And neve
 
 Even with caching, different requests blasting every 10ms can bring your server down because your server will be calculating different responses for them. This is why you need a rate limiter – if there’s not enough time had passed since the last request, the ongoing request will be denied. This will keep your server alive.
 
-## Dividing responsibilities
+### Dividing responsibilities
 
 If you’re using an SQL database and still calculating external keys with your backend, you’re not using the abilities of your database. Just set up entry relations and allow your database to calculate external keys for you – the query planner will always be faster than your backend.
 
@@ -76,13 +76,13 @@ Backend should have different responsibilities: hashing, building web pages from
 
 For anything related to data management or data models, move it to your database as procedures or queries.
 
-## Big Data
+### Big Data
 
 Even with database cluster, your maximum capacity is limited to your servers’ motherboard. You just can’t put infinite amount of hard drives there. If you want to grow infinitely, you have no other option than using a distributed database. It will store your data on different servers with maximum capacity close to the sum of all your servers’ capacity. If you’re running out of storage, you just add another server to the mix.
 
 With just a master-slave replication, you’ll be doubling and balancing your DB, but the capacity won’t grow infinitely.
 
-## Possible bottlenecks
+### Possible bottlenecks
 
 1. Single-threaded, stateful, unscalable server. For load balancing and running many servers, your code has to be stateless.
 
@@ -93,9 +93,9 @@ With just a master-slave replication, you’ll be doubling and balancing your DB
 
 5. You’re far away from your clients geographically. Go for CDN.
 
-# Setup examples
+## Setup examples
 
-## Kitten
+### Kitten
 
 ![](/blog/images/content/lQRoEgj.jpg)
 
@@ -108,7 +108,7 @@ This is your basic setup you can build on a LAMP stack in one evening. It is sta
 -  Bottleneck: Availability. Single server only, easily vulnerable to _Slashdot effect_
 -  Tools: your regular LAMP stack.
 
-## Cat
+### Cat
 
 ![](/blog/images/content/1D9HtgF.jpg)
 
@@ -121,7 +121,7 @@ We added cache to the mix. It gained speed, but it’s still unscalable because 
 -  Bottleneck: Stateful server. Even with cache doing its job, server it still unscalable
 -  Tools: Express with rate limiter and in-memory cache, MongoDB
 
-## Cheetah
+### Cheetah
 
 ![](/blog/images/content/HmLa4R9.jpg)
 
@@ -134,7 +134,7 @@ It scales! You can have as many servers as you want. Now you can deal with all t
 -  Bottleneck: Single DB. Functional languages kick in, the server is scalable. But single DB can fail to deal with many requests
 -  Tools: Go, Redis cache, MongoDB
 
-## Tiger
+### Tiger
 
 ![](/blog/images/content/NYSSfPN.jpg)
 
@@ -147,7 +147,7 @@ It’s fast. It’s scalable. Look how beautiful it is. DB is balancing requests
 -  Bottleneck: Distance. The server is fast, but if your user is far away, it can be slow
 -  Tools: Go, Redis + Cassandra + MongoDB
 
-## Lion
+### Lion
 
 ![](/blog/images/content/St88LVl.jpg)
 
@@ -166,7 +166,7 @@ This is perfect for pretty much anything like hosting providers, large e-commerc
 -  Bottleneck: Big Data. With master-slave replication, you can’t go big on data, you’re limited to the capacity of one DB server.
 -  Tools: Same but MongoDB is clustered
 
-## Sabertooth
+### Sabertooth
 
 ![](/blog/images/content/XWsNxyJ.jpg)
 
@@ -183,13 +183,13 @@ Perfect for recreating Google or Facebook.
 -  Bottleneck: Price. It costs like a space program.
 -  Tools: Go, Riak
 
-# Wrapping up
+## Wrapping up
 
 We’ve reviewed some of the most common setups for pretty much every project. You don’t have to stick with them – if the task requires that, go and design your own. Just remember that every tool have it’s use and make sure that you’re using the tools that are right for your job.
 
 Keep is scalable, keep is stateless.
 
-# Credits
+## Credits
 
 -  Cover image – [Ellie Brown](https://unsplash.com/@ellieb6635)
 -  Kitten – [Nine Köpfer](https://unsplash.com/@enka80)

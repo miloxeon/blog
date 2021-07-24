@@ -6,7 +6,7 @@ image: "/images/covers/thepresence.webp"
 tldr: I tried to launch a product, failed miserably and gave a Failory interview.
 ---
 
-# What’s this about?
+## What’s this about?
 
 Here’s a story about how I saw an app that allowed people to create cool music even by tapping the screen randomly, how I loved that idea, how I and [Ruletik](https://www.ruletik.com) were building this, and how my depression stopped it all.
 

@@ -24,7 +24,7 @@ To me, one **genuine** follower who wants to read my essays not because they (no
 
 I also dislike the Hashnode's handling of my essays. You got to either explicitly ban them with notifying me, or don't ban them at all. What kind of censorship is this?
 
-# To my readers
+## To my readers
 
 Dear sincere readers who enjoy my essays and what I do! Welcome to [🎉 My Own Blog 🎉](https://miloslav.website/blog/)! It has all the articles I've ever published, it has comments, a newsletter, and has no platform censorship — there is no platform!
 
