@@ -65,13 +65,13 @@ Courses are a huge industry. As we already determined, the knowledge itself does
 ![Business trainers](/blog/images/content/1*NzVw9SVei4fLgUrgj5jEiQ.jpeg)
 ![Here in my garage](/blog/images/content/tailopez1.jpg)
 
-Business trainers and coaches induce [FOMO](https://en.wikipedia.org/wiki/Fear_of_missing_out). It's really easy to exploit what was never your fault — your biases. Naturally, there is the whole industry of those who want to make money on that.
+Business trainers and coaches induce [FOMO](https://en.wikipedia.org/wiki/Fear_of_missing_out). It's really easy to exploit what was never your fault — your biases. Naturally, there is the whole industry of those who want to make money off of that.
 
 There are courses on every topic imaginable. There are fraudulent ones, there are just useless ones, then there are really useful ones.
 
 From the viewpoint of our research today, **it doesn't matter** — the nature of _learning itself_ can introduce you to the never-ending process of pointless learning, only for your whole knowledge system to crumble to dust in the very first real-world encounter, as it was purely synthetic.
 
-If you really, sincerely, wish to learn knowledge, then go and practice, do _real_ things. If you're an engineering student, go build a radio-controlled car, or a battle robot, or an Arduino-powered glass jukebox, or whatever you'd like — **and take it to the competition**. Seeing your creation competing in the real world, you'll quickly learn to face the problems and overcome them.
+If you really, sincerely, wish to get knowledge, then go and practice, do _real_ things. If you're an engineering student, go build a radio-controlled car, or a battle robot, or an Arduino-powered glass jukebox, or whatever you'd like — **and take it to the competition**. Seeing your creation competing in the real world, you'll quickly learn to face the problems and overcome them.
 
 If you're learning coding, don't just follow tutorials. Sure, go and build a Twitter clone by a tutorial, but then extend it — add CI/CD, add automatic deployment, make it build automatically after you push the code into a repository. Make it scale across multiple servers. Try to imagine the real problems of the real products: scalability, security, not failing under a DoS attack — and make your small pet-project overcome them.
 
