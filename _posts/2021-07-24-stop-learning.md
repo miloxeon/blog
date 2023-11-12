@@ -16,9 +16,9 @@ He obviously lacked any construction and woodworking skills to build properly. H
 
 The artwork was so influential that after his death, even general people that have nothing to do with art felt like it was wrong to discard what Hampton have done, and contacted art collectors, after which the Throne was taken by the Smithsonian American Art Museum.
 
-Hampton also influenced the art community and possibly put the age-old debate about **what is art and what is not**, to the rest:
+Hampton also influenced the art community and possibly put the age-old debate about **what is art and what is not**, to rest:
 
-> If the resulting artifact alone is enough reward for the artist, it's art.
+> If the resulting artifact alone is enough of a reward for the artist, it's art.
 
 > If it is not, it's not.
 
